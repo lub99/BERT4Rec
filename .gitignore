@@ -120,3 +120,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# exclude large files that couldnt be uploaded
+data/ml-20m.zip
+data/*.tfrecord
+data/*.vocab
+data/*.his
+
+
+ml-1m-*/*
+beauty*/*
+steam*/*
+
+
+
